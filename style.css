@@ -1,0 +1,77 @@
+@import "reset.css";
+
+body {
+    background-color: #f6f7fc;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    margin-top: 12px;
+}
+
+.jsColor:hover {
+    filter: brightness(80%);
+    transform: scale(0.9);
+}
+
+.headcolor {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    cursor: unset;
+}
+
+.controls_range {
+    margin-top: 20px;
+}
+
+.range {
+    display: block;
+    width: 60px;
+}
+
+.board {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-top: 50px;
+}
+
+.controls_btns {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 0px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
