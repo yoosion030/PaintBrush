@@ -1,1 +1,1 @@
-## [그림판](https://yoosion030.github.io/PaintBrush.github.io/)
+## [그림판](https://yoosion030.github.io/PaintBrush/)
